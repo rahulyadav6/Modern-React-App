@@ -22,12 +22,12 @@ const Navbar = () => {
         </div>
 
         {/* Mobile menu button*/}
-        <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          {isMenuOpen ? (
+        <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          {isMenuOpen ? 
             <HiX className="size-6" />
-          ) : (
+           : 
             <HiMenu className="size-6" />
-          )}
+          } 
         </button>
 
         {/* desktop navitems */}
