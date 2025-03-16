@@ -7,7 +7,7 @@ const sentence = "Startup to Fortune 500";
 const words = sentence.split("");
 const Hero = () => {
   return (
-    <section className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-30 pb-6 sm:px-6 lg:px-8 ">
+    <section id="home" className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-30 pb-6 sm:px-6 lg:px-8 ">
       {/* left column */}
       <div className="w-full md:w-1/2 space-y-8">
         {/* star badge */}
